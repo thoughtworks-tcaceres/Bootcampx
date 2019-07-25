@@ -10,4 +10,4 @@ INSERT INTO teachers (id, name, is_active, start_date, end_date) VALUES (9, 'Ada
 INSERT INTO teachers (id, name, is_active, start_date, end_date) VALUES (10, 'Alessia Zemlak', true, '2018-09-25T07:00:00.000Z', null);
 INSERT INTO teachers (id, name, is_active, start_date, end_date) VALUES (11, 'Preston Auer', true, '2018-11-19T08:00:00.000Z', null);
 
-ALTER SEQUENCE teachers_id_seq RESTART WITH 12;
+ALTER SEQUENCE teachers_id_seq RESTART WITH 1;
